@@ -14,3 +14,5 @@ let cookieOne = new Cookie('green');
 console.log(cookieOne.getColor());
 let cookieTwo = new Cookie('blue');
 console.log(cookieTwo.getColor());
+let cookieThree = new Cookie('Red');
+console.log(cookieTwo.getColor());
