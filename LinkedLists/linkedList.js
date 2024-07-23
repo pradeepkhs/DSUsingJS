@@ -1,11 +1,11 @@
-export class Node {
+class Node {
     constructor(value) {
         this.value = value;
         this.next = null;
     }
 }
 
-export class LinkedList {
+class LinkedList {
     constructor(value) {
         const newNode = new Node(value);
         this.head = newNode;
@@ -149,3 +149,7 @@ myLinkedList.push(25);
 myLinkedList.printList();
 console.log((myLinkedList.reverse()));
 myLinkedList.printList();
+
+// testing whether we can create a dummby object using default constructor
+    let myLinkedList1 = new LinkedList();
+console.log(myLinkedList1);
