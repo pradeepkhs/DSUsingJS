@@ -125,10 +125,16 @@ class LinkedList {
                 prev2.next = current;
                 prev2 = current;
             }
-            console.log('inside while');
+            console.log('current:');
             console.log(current);
-            console.log(prev1);
+            // console.log('prev1:');
+            // console.log(prev1);
+            // console.log('prev2:');
+            // console.log(prev2);
+            console.log('dummy1:');
             console.log(dummy1);
+            console.log('dummy2:');
+            console.log(dummy2);
             current = current.next;
         }
         prev2.next = null;
